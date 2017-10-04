@@ -8,6 +8,7 @@ Here you can find a collection of docker bash scripts to automate some tasks
 | docker-compose-install.sh | Install the latest docker-compose version |
 | docker-machine-install.sh | Install the latest docker-machine version |
 | reclaim-disk-space.sh     | Reclaim disk space by removing unused container, images and volumes |
+| reclaim-disk-space.sh --force | Remove all child nodes (be careful) |
 | upgrade-all-images.sh     | Upgrade all installed docker images |
 | container-ip.sh           | Get the IP of the specified running container |
 
